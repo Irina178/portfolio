@@ -1,0 +1,41 @@
+@media screen and (min-width:  340px ){
+   .ability{
+      padding-bottom: 20px;
+    }
+   .skills__heading {
+      font-size: 28px;
+      line-height: 1;
+      font-weight: 400;
+      color: $blue;
+      text-decoration: underline;
+      padding-bottom: 18px;
+   }
+   .ability__list {
+      font-size: 14px;
+      line-height: 1;
+      font-weight: 400;
+      color: $black;
+      padding-bottom: 5px;
+   }
+}
+@media screen and (min-width:  640px ){
+ .ability{
+   padding-bottom: 30px;
+ }
+   .skills__heading {
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 400;
+      color: $blue;
+      text-decoration: underline;
+   
+   }
+   .ability__list {
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 400;
+      color: $black;
+      padding-bottom: 5px;
+   }
+
+}

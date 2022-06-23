@@ -1,0 +1,233 @@
+@media screen and (min-width: 340px ) {
+   .accessories {
+   padding: 15px 0px 0px;
+    }
+  
+   .gajet {
+      background-image: url('../img/png/Accessories-png-tel-1x.png');
+      background-repeat: no-repeat;
+ width: 320px;
+ height: 235px;  
+ margin-bottom: 15px;    
+   }
+   .heading {
+   font-size: 20px;
+   line-height: 1;
+   font-weight: 600;
+  color: $white;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 75px ;
+   }
+
+
+
+
+   .transformers {
+      background-color: $white;
+      border-radius: 15px;
+      display: flex;
+     &__wraper{
+        height: 130px;
+        padding: 20px 0px 20px 20px;
+     }
+
+         &__heading {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 1;
+            color: $grey;
+            margin-right: 50px;
+         }
+   
+         &__color {
+            color: $black;
+         }
+   }
+   .text {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.2;
+      color: $black;
+      padding: 5px 0px 13px;
+    
+   }
+   .range {
+      font-size: 14px;
+      line-height: 1.07;
+      font-weight: 600;
+      color: $blue;
+ 
+   }
+   .support {
+      position: relative;
+
+        &__img {
+          
+           position: absolute;
+           top: -113px;
+           left: 115px;
+     }
+}
+
+@media screen and (min-width: 640px) {
+   .accessories {
+      
+      padding: 15px 0px 35px;
+      &__wraper{
+         display: flex;
+      }
+       }
+      
+      .gajet {
+   background-image: url('../img/png/Accessories-png-tablet-1x.png' );
+   background-repeat: no-repeat;
+  width: 380px;
+   height: 250px;
+   margin-bottom: 15px;
+   margin-right: 20px;   
+      }
+      .heading {
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 600;
+     color: $white;
+     padding-top: 20px;
+     padding-left: 20px;
+     padding-right: 75px ;
+      }
+   
+   .stand{
+      width: 220px;
+     
+   }
+   
+   
+      .transformers {
+         height: 251px;
+         background-color: $white;
+         border-radius: 15px;
+         display: flex;
+        &__wraper{
+           padding: 20px 0px 20px 20px;
+        }
+   
+            &__heading {
+               font-size: 20px;
+               font-weight: 600;
+               line-height: 1;
+               color: $grey;
+              
+            }
+      
+            &__color {
+               color: $black;
+            }
+      }
+      .text {
+         font-size: 14px;
+         font-weight: 400;
+         line-height: 1.2;
+         color: $black;
+         padding: 5px 0px 13px;
+       
+      }
+      .range {
+         font-size: 14px;
+         line-height: 1.07;
+         font-weight: 600;
+         color: $blue;
+          
+      }
+      .support {
+       position: relative;
+
+         &__img {
+           
+            position: absolute;
+            top: -10px;
+            left: 8px;
+      }
+   }
+   
+
+
+}
+}
+@media screen and (min-width: 1200px){
+   .gajet {
+      background-image: url('../img/png/Accessories-png-desc-1x.png' );
+      background-repeat: no-repeat;
+     width: 760px;
+      height: 300px;
+      margin-bottom: 15px;
+      margin-right: 20px;   
+         }
+         .heading {
+         font-size: 30px;
+         line-height: 1;
+         font-weight: 600;
+        color: $white;
+        padding: 35px 0px 205px 30px;
+        margin-right: 450px;
+         }
+      
+      .stand{
+         width: 220px;
+        
+      }
+      
+      
+         .transformers {
+            height: 300px;
+            width: 400px;
+            background-color: $white;
+            border-radius: 15px;
+            display: flex;
+           &__wraper{
+              padding: 30px 0px 30px 30px;
+           }
+      
+               &__heading {
+                  font-size: 30px;
+                  font-weight: 600;
+                  line-height: 1;
+                  color: $grey;
+                 
+               }
+         
+               &__color {
+                  color: $black;
+               }
+         }
+         .text {
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 1.2;
+            color: $black;
+            padding: 10px 0px 22px;
+          
+         }
+         .range {
+            font-size: 14px;
+            line-height: 1.07;
+            font-weight: 600;
+            color: $blue;
+             
+         }
+         .support {
+          position: relative;
+   
+            &__img {
+              
+               position: absolute;
+               top: -45px;
+               left: 150px;
+         }
+      }
+      
+   
+   
+   }
+   
+ 

@@ -1,0 +1,150 @@
+
+@media screen and (min-width:  340px ){
+   .hero {
+padding: 30px 0px 0px 0px;
+   &__haeading {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1;
+      color: $black;
+      margin-bottom: 20px;
+   }
+}
+ 
+.selling {
+ 
+   &__list {
+      background-color: $white;
+      border-radius: 15px;
+      padding: 20px;
+margin-bottom: 10px;
+width: 320px;
+height: 260px;
+position: relative;
+padding-top: 140px;
+   }
+
+   &__img {
+      margin: 0auto;
+      margin-bottom: 10px;
+       position: absolute;
+
+       top: 5px;
+       left: 60px;
+   }
+
+   &__heading {
+      font-size: 14px;
+      line-height: 1;
+      font-weight: 600;
+      color: $black;
+      margin-bottom: 5px;
+   }
+   &__text{
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 400;
+      color: $black;
+      margin-bottom: 10px;
+   }
+
+   &__rice {
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 400;
+      color:  $grey; 
+      margin-bottom: 15px;
+   }
+}
+.purchase {
+   &__link {
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 400;
+      color:  $white;
+      padding: 10px 25px;
+      background-color: $blue;
+      border-radius: 5px;
+   }
+}
+}
+
+@media screen and (min-width: 640px){
+   .hero {
+      padding: 40px 0px 0px 0px;
+         &__haeading {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 1;
+            color: $black;
+            margin-bottom: 30px;
+         }
+      }
+       
+      .selling {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items:center;
+         &__list {
+          
+      background-color: $white;
+      border-radius: 15px;
+      padding: 30px;
+      width: 300px;
+      height: 260px;
+      position: relative;
+      padding-top: 140px;
+         }
+      
+         &__img {
+            margin: 0auto;
+            margin-bottom: 10px;
+            position: absolute;
+            top: 5px;
+            left: 60px;
+         }
+      
+         &__heading {
+            font-size: 14px;
+            line-height: 1;
+            font-weight: 600;
+            color: $black;
+            margin-bottom: 5px;
+         }
+         &__text{
+            font-size: 12px;
+            line-height: 1;
+            font-weight: 400;
+            color: $black;
+            margin-bottom: 10px;
+         }
+      
+         &__rice {
+            font-size: 12px;
+            line-height: 1;
+            font-weight: 400;
+            color:  $grey; 
+            margin-bottom: 15px;
+         }
+      }
+      .purchase {
+         &__link {
+            font-size: 12px;
+            line-height: 1;
+            font-weight: 400;
+            color:  $white;
+            padding: 10px 25px;
+            background-color: $blue;
+            border-radius: 5px;
+         }
+      }
+}
+@media screen and (min-width: 1200px){
+   .selling {
+      display: flex;
+      justify-content: space-between;
+      &__list {
+         width: 288px; 
+            }
+}
+}

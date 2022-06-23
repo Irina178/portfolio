@@ -1,0 +1,58 @@
+@media screen and (min-width:  340px ){
+    
+   .education__heading {
+      font-size: 28px;
+      line-height: 1;
+      font-weight: 400;
+      color: $blue;
+      text-decoration: underline;
+      padding-bottom: 18px;
+   }
+   
+    
+   .university__link {
+      font-size: 18px;
+      line-height: 1;
+      font-weight: 400;
+      color: $blue;
+      text-decoration: underline;
+      
+      
+   }
+   .university__text {
+      font-size: 14px;
+      line-height: 1;
+      font-weight: 400;
+      color: $black;
+     
+      padding-bottom: 10px;
+   }
+}
+@media screen and (min-width:  620px ){
+ 
+   .education__heading {
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 400;
+      color: $blue;
+      text-decoration: underline;
+      padding-bottom: 18px;
+   }
+   .university { 
+  
+   .university__link {
+      font-size: 22px;
+      line-height: 1;
+      font-weight: 400;
+      color: $blue;
+      text-decoration: underline;
+   }
+   .university__text {
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 400;
+      color: $black;
+      padding-bottom: 20px;
+      
+   }
+}}

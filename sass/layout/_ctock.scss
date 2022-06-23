@@ -1,0 +1,114 @@
+@media screen and (min-width: 340px ) {
+   .ctock {
+     
+   
+      &__heading{
+         font-size: 20px;
+         line-height: 1;
+         font-weight: 600;
+         color: #1A1A1A;
+         margin-bottom: 15px;
+         
+   }
+ 
+   }
+   .new {
+   
+         &__list {
+            background-color: #fff;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            padding: 20px 20px 20px 20px;
+         }
+        
+         &__text {
+            text-align: center;
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $black;
+         }
+         .icon{
+display: block;
+&__img{
+   margin: 0aoto;
+}
+         }
+         
+   }
+   
+
+}
+
+@media screen and (min-width: 640px) {
+  
+   .new {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+         &__list {
+            width: 298px;
+            background-color: #fff;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            padding: 20px 20px 20px 20px;
+         }
+        
+         &__text {
+            text-align: center;
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $black;
+            margin-bottom: 15px;
+         }
+         .icon{
+display: block;
+&__img{
+   margin: 0aoto;
+}
+         }
+}
+}
+
+@media screen and (min-width: 1200px) {
+
+   .ctock {
+    
+      &__heading{
+         font-size: 30px;
+         line-height: 1;
+         font-weight: 600;
+         color: #1A1A1A;
+         margin-bottom: 30px;
+         text-align: center;
+   }
+ 
+   }
+   .new {
+   display: flex;
+   justify-content: space-between;;
+         &__list {
+            background-color: #fff;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            padding: 20px 20px 20px 20px;
+            width: 285px;
+         }
+        
+         &__text {
+            text-align: center;
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $black;
+         }
+         .icon{
+display: block;
+&__img{
+   margin: 0aoto;
+}
+         }
+}
+
+
+}

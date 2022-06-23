@@ -1,0 +1,88 @@
+@media screen and (min-width: 340px ) {
+   .advantages {
+      margin: 35px 0px 35px 0px;
+   }
+     .values {
+   
+         &__list {
+            background-color:  $white;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            padding: 20px 0px 35px 20px;
+         }
+
+               &__text {
+         padding-top: 15px;
+         font-size: 16px;
+         line-height: 1;
+         font-weight: 600;
+         color: $black;
+   
+         margin-right: 75px;
+         }
+
+   
+         &__color--blue {
+            color: $blue;
+         }
+   
+         &__color--red {
+            color: $red;
+         }
+   
+         &__color--gren {
+            color: $green;
+         }
+   }
+   
+}
+
+@media screen and (min-width: 640px) {
+   .advantages { 
+      margin: 40px 0px 40px 0px;
+   }
+     .values {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+ 
+         &__list {
+            width: 298px;
+       padding: 20px 0px 35px 20px;
+       justify-content: space-between;
+       align-items: stretch;
+         }
+
+               &__text {
+         padding-top: 15px;
+         font-size: 16px;
+         line-height: 1;
+         font-weight: 600;
+         color: $black;
+       
+         margin-right: 75px;
+         }
+
+   
+       
+   }
+   
+}
+
+@media screen and (min-width: 1200px){
+   .advantages { 
+      margin: 40px 0px 40px 0px;
+   }
+     .values {
+display: flex;
+ justify-content: space-between;
+         &__list {
+            width: 285px;
+       padding: 20px 0px 35px 20px;
+       justify-content: space-between;
+       align-items: stretch;
+         }
+          &__text {
+         margin-right: 60px;
+         }
+   }
+}

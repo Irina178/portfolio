@@ -1,0 +1,73 @@
+@media screen and (min-width:  340px ){
+   .possession {
+     padding-bottom: 20px;
+   }
+   // .container {
+   // }
+   // .program {
+   // }
+   .program__heading {
+      font-size: 28px;
+      line-height: 1;
+      font-weight: 400;
+      color: $blue;
+      text-decoration: underline;
+      padding-bottom: 18px;
+   }
+   .icon {
+      display: flex;
+      justify-content: space-evenly;
+   }
+   // .icon__list {
+   // }
+   .icon__text {
+      font-size: 14px;
+      line-height: 1;
+      font-weight: 400;
+      color: $black;
+      text-align: center;
+      padding: 5px;
+   }
+   .icon__img {
+      width: 50px;
+      height: 50px;
+   }
+}
+@media screen and (min-width:  640px ){
+   .possession {
+      padding-bottom: 30px;
+    }
+   .program__heading {
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 400;
+      color: $blue;
+      text-decoration: underline;
+      padding-bottom: 18px;
+   }
+   .icon {
+      display: flex;
+      justify-content: space-evenly;
+   }
+   // .icon__list {
+   // }
+   .icon__text {
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 400;
+      color: $black;
+      text-align: center;
+      padding: 5px;
+   }
+   .icon__img {
+      width: 70px;
+      height: 70px;
+   }
+
+}
+@media screen and (min-width:  1200px ){
+   .icon__img {
+      width: 100px;
+      height: 100px;
+   }
+}

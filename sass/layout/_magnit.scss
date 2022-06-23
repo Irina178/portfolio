@@ -1,0 +1,321 @@
+@media screen and (min-width: 340px ){
+   .magnit {
+      
+    
+      padding: 30px 0px 30px 0px;
+   }
+   // .container {
+   // }
+   // .frame{
+    
+   // }
+   .tablet {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 320px;
+      background-color: $white;
+      border-radius: 15px;
+      margin-bottom: 10px;
+      
+      
+         &__wraper {
+            padding: 20px 0px 20px 20px;
+         }
+   
+         &__heading {
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: $red;
+         }
+   
+         &__color {
+            color: $black;
+            
+         }
+   
+         &__text {
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $grey;
+            margin: 10px 70px 75px 0px;
+         }
+
+   
+         &__range {
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $blue;
+         }
+   }
+   .rack {
+   position: relative;
+         &__img {
+            position: absolute;
+            top:-180px ;
+            left: 145px ;
+         }
+   }
+   .cardholder {
+      width: 320px;
+      background-color: $white;
+      border-radius: 15px;
+      margin-right: 0auto;
+   
+         &__wraper {
+            padding: 20px 0px 20px 20px;
+         }
+   
+         &__heading {
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: $black;
+         }
+   
+         &__color {
+            color: $green;
+            
+         }
+   
+         &__text {
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $grey;
+            margin: 10px 0px 75px 0px;
+         }
+   
+         &__range {
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $blue;
+         }
+   }
+   .crsditcart {
+      position: relative;
+         &__img {
+            position: absolute;
+            top:-92px ;
+            left: 122px; 
+         }
+   }
+   
+     
+   
+}
+
+@media screen and (min-width: 640px){
+   .frame{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+    justify-content: space-between;
+   
+   }
+   .tablet {
+      height: 240px;
+      width: 300px;
+      background-color: $white;
+      border-radius: 15px;
+      
+      
+         &__wraper {
+            padding: 20px 0px 20px 20px;
+         }
+   
+         &__heading {
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: $red;
+         }
+   
+         &__color {
+            color: $black;
+            
+         }
+   
+         &__text {
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $grey;
+            margin: 10px 70px 75px 0px;
+         }
+
+   
+         &__range {
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $blue;
+         }
+   }
+   .rack {
+   position: relative;
+         &__img {
+            position: absolute;
+            top:-180px ;
+            left:140px ;
+         }
+   }
+   .cardholder {
+      height: 240px;
+      width: 300px;
+      background-color: $white;
+      border-radius: 15px;
+   
+         &__wraper {
+            padding: 20px 0px 20px 20px;
+         }
+   
+         &__heading {
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: $black;
+         }
+   
+         &__color {
+            color: $green;
+            
+         }
+   
+         &__text {
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $grey;
+            margin: 10px 0px 75px 0px;
+         }
+   
+         &__range {
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $blue;
+         }
+   }
+   .crsditcart {
+      position: relative;
+         &__img {
+            position: absolute;
+            top:-113px ;
+            left:122px ;
+         }
+   }
+   
+   
+
+}
+
+@media screen and (min-width: 1200px){
+   .frame{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items:center;
+    justify-content: space-between;
+
+   
+   }
+   .tablet {
+      height: 100%;
+      width: 90%;
+      background-color: $white;
+      border-radius: 15px;
+      
+      
+         &__wraper {
+            padding: 70px 0px 40px 50px;
+         }
+   
+         &__heading {
+            font-size: 33px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: $red;
+         }
+   
+         &__color {
+            color: $black;
+            
+         }
+   
+         &__text {
+            font-size: 24px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $grey;
+            margin: 10px 200px 75px 0px;
+         }
+
+   
+         &__range {
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $blue;
+         }
+   }
+   .rack {
+   position: relative;
+         &__img {
+            position: absolute;
+            top:-185px ;
+            left:325px ;
+         }
+   }
+   .cardholder {
+      height:100%;
+      width: 90%;
+      background-color: $white;
+      border-radius: 15px;
+     
+   
+         &__wraper {
+            padding: 70px 0px 40px 50px;
+         }
+   
+         &__heading {
+            font-size: 33px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: $black;
+         }
+   
+         &__color {
+            color: $green;
+            
+         }
+   
+         &__text {
+            font-size: 24px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $grey;
+            margin: 10px 0px 75px 0px;
+         }
+   
+         &__range {
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $blue;
+         }
+   }
+   .crsditcart {
+      position: relative;
+         &__img {
+            position: absolute;
+            top:-125px ;
+            left:333px ;
+         }
+   }
+   
+   
+}

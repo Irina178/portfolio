@@ -1,0 +1,171 @@
+@media screen and (min-width: 340px ){
+   .reviews {
+
+   &__haeding {
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 600;
+      color: #1A1A1A;
+      margin-bottom: 15px;
+   }
+}
+ 
+.intelligence {
+
+   &__list {
+      position: relative;
+      background-color: $white;
+   border-radius: 15px;
+   padding: 20px;
+   margin-bottom: 15px;
+   }
+
+   &__heading {
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 400;
+      color:$black;
+      margin-bottom: 86px;
+     
+   }
+
+   &__text {
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 400;
+      color:$black;
+   }
+
+   &__img {
+      position: absolute;
+      top:20px;
+      left: 103px;
+   }
+}
+.articles {
+font-size: 14px;
+line-height: 1.1;
+font-weight: 400;
+color: $white;
+padding: 10px 25px;
+background-color:  $blue;
+border-radius: 5px;
+}
+.articles:hover{
+   border: 3px solid $white;
+}
+}
+@media screen and (min-width: 640px) {
+   .reviews {
+
+      &__haeding {
+         font-size: 30px;
+         line-height: 1;
+         font-weight: 600;
+         color: #1A1A1A;
+         margin-bottom: 15px;
+      }
+   }
+    
+   .intelligence {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+      &__list {
+         width: 298px;
+         position: relative;
+       
+      padding: 25px;
+      margin-bottom: 10px;
+     
+      }
+   
+      &__heading {
+         font-size: 14px;
+         line-height: 1.2;
+         font-weight: 400;
+         color:$black;
+         margin-bottom: 86px;
+        
+      }
+   
+      &__text {
+         font-size: 14px;
+         line-height: 1.2;
+         font-weight: 400;
+         color:$black;
+      }
+   
+      &__img {
+         position: absolute;
+         top:30px;
+         left: 83px;
+      }
+   }
+   .articles {
+   font-size: 14px;
+   line-height: 1.1;
+   font-weight: 400;
+   color: $white;
+   padding: 10px 25px;
+   background-color:  $blue;
+   border-radius: 5px;
+   }
+  
+}
+@media screen and (min-width: 1200px) {
+   .reviews {
+
+      &__haeding {
+         font-size: 30px;
+         line-height: 1;
+         font-weight: 600;
+         color: #1A1A1A;
+         margin-bottom: 15px;
+      }
+   }
+    
+   .intelligence {
+display: flex;
+justify-content: space-between;
+      &__list {
+         width: 255px;
+         position: relative;
+       
+      padding: 25px;
+      margin-bottom: 10px;
+     
+      }
+   
+      &__heading {
+         font-size: 14px;
+         line-height: 1.2;
+         font-weight: 400;
+         color:$black;
+         margin-bottom: 86px;
+        
+      }
+   
+      &__text {
+         font-size: 14px;
+         line-height: 1.2;
+         font-weight: 400;
+         margin-right: 25px;
+         color:$black;
+      }
+   
+      &__img {
+         position: absolute;
+         top:46px;
+         left: 4px;
+      }
+   }
+   .articles {
+   font-size: 14px;
+   line-height: 1.1;
+   font-weight: 400;
+   color: $white;
+   padding: 10px 25px;
+   background-color:  $blue;
+   border-radius: 5px;
+   } 
+}
